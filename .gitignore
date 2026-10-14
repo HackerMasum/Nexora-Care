@@ -1,0 +1,35 @@
+﻿# Logs and runtime data
+*.log
+Logs/
+**/Logs/
+
+# Local backups and recovery archives
+Backup/
+**/Backup/
+*.zip
+*.bak
+*.backup
+
+# Machine-specific scheduled-task exports
+Task-before*.xml
+**/Task-before*.xml
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.key
+
+# Editor and operating-system files
+.vs/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
